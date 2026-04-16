@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=La+Belle+Aurore&display=swap');
+
+.cedarville-cursive-regular {
+font-family: "Cedarville Cursive", cursive;
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+    font-family: Sparkling;
+    src: url(../assets/Fuentes/sparkling_valentine/Sparkling\ Valentine.ttf);
+}
+
+@font-face {
+    font-family: JustColes;
+    src: url(../assets/Fuentes/justcolescursive/JustColesCursive.ttf);
+}
+
+$fuente1: Cedarville Cursive;
+$fuente2: Sparkling;
+$fuente3: JustColes;
+
+$color1: #f796f2;
+$color2: #fcbffd;
+$color3: #f4bdf4;
+$color4: #923a8e;
+
+
+

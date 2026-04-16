@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@use "utilities/variables";
+@use "components/header";
+@use "components/footer";
+@use "partials/home";
+@use "partials/productos";
+@use "partials/galeria";
+@use "partials/acercade";
+@use "partials/contacto";

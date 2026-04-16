@@ -1,0 +1,18 @@
+
+
+footer{
+    h2{
+        font-family: Sparkling;
+        font-size: 32px;
+        margin: 15px;
+    }
+    nav{
+        .elementos_footer{
+            display: flex;
+    flex-direction: row;
+        .logos_footer{
+        margin:10px 14px;
+    }
+    }
+    }
+}
