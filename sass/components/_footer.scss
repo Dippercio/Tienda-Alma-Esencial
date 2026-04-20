@@ -1,18 +1,25 @@
-
-
-footer{
-    h2{
+footer {
+    h2 {
         font-family: Sparkling;
         font-size: 32px;
         margin: 15px;
     }
-    nav{
-        .elementos_footer{
+
+    nav {
+        .elementos_footer {
             display: flex;
-    flex-direction: row;
-        .logos_footer{
-        margin:10px 14px;
-    }
-    }
+            flex-direction: row;
+            gap: 20px;
+
+            .logos_footer {
+                margin: 10px 14px;
+                list-style-type: none;
+                text-decoration: none;
+                img{
+                    height: 8vh;
+                    width: auto;
+                }
+            }
+        }
     }
 }

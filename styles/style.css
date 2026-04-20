@@ -1,3 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=La+Belle+Aurore&display=swap");
+.cedarville-cursive-regular {
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sparkling;
+  src: url(../assets/Fuentes/sparkling_valentine/Sparkling\ Valentine.ttf);
+}
+@font-face {
+  font-family: JustColes;
+  src: url(../assets/Fuentes/justcolescursive/JustColesCursive.ttf);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+header a {
+  width: 14vw;
+}
+header a #logo_principal {
+  width: 180px;
+  height: 180px;
+  border-radius: 10%;
+  margin: 10px;
+  border: 5px #923a8e solid;
+  border-radius: 17px;
+}
+header h1 {
+  background-color: #fcbffd;
+  padding-top: 54px;
+  margin: 20px;
+  width: 300px;
+  height: 27vh;
+  text-align: center;
+  border-radius: 17px;
+  font-family: JustColes;
+  box-sizing: border-box;
+  border: 5px #923a8e solid;
+  border-radius: 17px;
+}
+header nav {
+  background-color: #fcbffd;
+  padding: 10px;
+  margin: 20px;
+  border: 5px #923a8e solid;
+  border-radius: 17px;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  height: 21vh;
+  align-items: center;
+  column-gap: 18px;
+}
+header nav ul li {
+  list-style-type: none;
+  text-decoration: none;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: Sparkling;
+  font-size: 5vh;
+}
+header nav ul .link_navegacion_a {
+  grid-column: 1/2;
+}
+header nav ul .link_navegacion_b {
+  grid-column: 2/3;
+}
+header nav ul .link_navegacion_c {
+  grid-column: 3/4;
+}
+header nav ul .link_navegacion_d {
+  grid-column: 4/5;
+}
+
+footer h2 {
+  font-family: Sparkling;
+  font-size: 32px;
+  margin: 15px;
+}
+footer nav .elementos_footer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+footer nav .elementos_footer .logos_footer {
+  margin: 10px 14px;
+  list-style-type: none;
+  text-decoration: none;
+}
+footer nav .elementos_footer .logos_footer img {
+  height: 8vh;
+  width: auto;
+}
+
+body {
+  background-color: #f796f2;
+}
+
+h2 {
+  font-family: Sparkling;
+  font-size: 32px;
+  margin: 15px;
+  background-color: #f4bdf4;
+  border-radius: 15px;
+  border: 5px #923a8e solid;
+  border-radius: 17px;
+  text-align: center;
+  height: 10vh;
+  width: 55vw;
+}
+
 * {
   margin: 0;
   padding: 0;
