@@ -1,5 +1,7 @@
 body {
     background-color: #f4bdf4;
+    $body-bg: #f4bdf4;
+
     main {
         background-color: #f4bdf4;
 
@@ -8,34 +10,37 @@ body {
             border: 5px #923a8e solid;
             border-radius: 17px;
             margin: 0 10vw;
-            padding: 8vh;
+            padding: 5vh;
             display: flex;
             flex-direction: row;
-            gap: 2rem;
+            flex-wrap: wrap;
+            gap: 20px;
 
             article {
+
                 p {
                     width: 40vw;
                 }
             }
 
-            .carousel {
-                width: 40vw;
-                height: 30vh;
+            // .carousel {
+            //     background-color: #f4bdf4;
+            //     width: 40vw;
+            //     height: 100vh;
 
-                .carousel-inner {
-                    height: 100%;
+            //     .carousel-inner {
+            //         height: 100%;
 
-                    .carousel-item {
-                        height: 100%;
+            //         .carousel-item {
+            //             height: 100%;
 
-                        img {
-                            height: 70%;
-                            object-fit: cover;
-                        }
-                    }
-                }
-            }
+            //             img {
+            //                 height: 100%;
+            //                 object-fit: cover;
+            //             }
+            //         }
+            //     }
+            // }
         }
     }
 }
