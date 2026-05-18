@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda Alma Esencial - Contacto</title>
     <link rel="shortcut icon" href="../assets/Images/logoAE.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/style.css">
 </head>
+
 <body>
     <header>
         <a href="../index.html">
-        <img id="logo_principal" src="../assets/Images/logoAE.jpeg" alt="Logo de Alma Esencial">
+            <img id="logo_principal" src="../assets/Images/logoAE.jpeg" alt="Logo de Alma Esencial">
         </a>
         <h1>Tienda Alma Esencial</h1>
         <nav class="barra_navegacion">
@@ -31,20 +35,52 @@
         </nav>
     </header>
     <main>
-        <h2 class="titulo_formulario">Formulario de Contacto</h2>
-        <form action="">
-            <label for="Nombre">Nombre y Apellido</label>
-            <input type="text" name="" id="Nombre" placeholder="John Doe">
-            <label for="E-mail">Correo Electrónico</label>
-            <input type="email" name="" id="" placeholder="ejemplo@mail.com">
-            <label for="Fecha">Fecha de Contacto</label>
-            <input type="datetime-local" name="" id="">
-            <label for="Bases_y_condiciones">Estoy de acuerdo con las bases y condiciones</label>
-            <input type="checkbox" name="" id="">
-        </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3283.5764543140745!2d-58.59271439239629!3d-34.61487020014101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1770773646648!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2 class="titulo_formulario">Contacto</h2>
+        <div class="box_form">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3283.5764543140745!2d-58.59271439239629!3d-34.61487020014101!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1770773646648!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+            <div class="container mt-4">
+                <form class="p-3 rounded" style="max-width: 300px; background-color: #f4bdf4;">
+
+                    <h3 class="mb-3">Formulario de Contacto</h3>
+
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label">Nombre y Apellido</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="John Doe">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" placeholder="ejemplo@mail.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="fecha" class="form-label">Fecha de Contacto</label>
+                        <input type="datetime-local" class="form-control" id="fecha">
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="terminos">
+                        <label class="form-check-label" for="terminos">
+                            Estoy de acuerdo con las bases y condiciones
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary w-100">
+                        Enviar
+                    </button>
+
+                </form>
+            </div>
+        </div>
+        <a class="link_carrito">
+            <img class="carrito" src="../assets/Images/carrito.png" alt="Carrito de Compras">
+        </a>
     </main>
-        <footer>
+    <footer>
         <h2>Derechos Reservados</h2>
         <h2>Página creada por Dippercio</h2>
         <nav>
@@ -74,5 +110,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
-<!-- joyaaaaa ctrl+k+c -->
