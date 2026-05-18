@@ -393,9 +393,6 @@ body main section .carousel .carousel-inner .carousel-item img {
   object-fit: cover;
 }
 
-main {
-  background-color: #f4bdf4;
-}
 main h2 {
   font-family: Sparkling;
   font-size: 32px;
@@ -408,6 +405,54 @@ main h2 {
   height: 10vh;
   width: 55vw;
   margin-left: 21vw;
+}
+main .form_map .formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  border: 5px #923a8e solid;
+  border-radius: 17px;
+  padding: 10px;
+}
+main .form_map .formulario h3 {
+  margin: 10px 15px 10px 15px;
+}
+main .form_map .formulario label {
+  margin: 7px;
+}
+main .form_map .formulario .mensaje {
+  height: 20vh;
+}
+main .form_map .formulario button {
+  margin: 10px;
+  background-color: #cc6cc7;
+}
+main .form_map {
+  background-color: #f4bdf4;
+  display: flex;
+}
+@media (min-width: 480px) and (max-width: 967px) {
+  main .form_map {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  main .form_map .formulario {
+    border: none;
+  }
+  main .form_map iframe {
+    width: 90%;
+    margin: 25px;
+  }
+}
+@media (min-width: 300px) and (max-width: 479px) {
+  main .form_map .formulario {
+    border: none;
+  }
+  main iframe {
+    width: 90%;
+    margin: 19px;
+  }
 }
 
 * {

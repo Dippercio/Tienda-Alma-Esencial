@@ -1,5 +1,8 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
 main {
-    background-color: #f4bdf4;
+
     h2 {
         font-family: Sparkling;
         font-size: 32px;
@@ -14,36 +17,66 @@ main {
         margin-left: 21vw;
     }
 
-    // .box_form {
-    //     display: flex;
-    //     flex-direction: row;
+    .form_map {
+        .formulario {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            border: 5px #923a8e solid;
+            border-radius: 17px;
+            padding: 10px;
 
-    //     div {
+            h3 {
+                margin: 10px 15px 10px 15px;
+            }
 
-    //         .mb-3 {
-    //             display: flex;
-    //             flex-direction: column;
-    //             text-align: justify;
-    //             margin: 15px;
-    //             padding: 15px;
-    //             width: 45vw;
-    //             background-color: #f4bdf4;
-    //             border-radius: 15px;
+            label {
+                margin: 7px;
+            }
 
-    //             h3 {
-    //                 font-family: Sparkling;
-    //                 font-size: 24px;
-    //                 margin: 15px;
-    //                 background-color: #f4bdf4;
-    //                 border-radius: 17px;
-    //                 text-align: center;
-    //                 margin: 3vh;
-    //             }
+            .mensaje {
+                height: 20vh;
+            }
 
-    //             .label_form {
-    //                 margin: 10px;
-    //             }
-    //         }
-    //     }
-    // }
+            button {
+                margin: 10px;
+                background-color: #cc6cc7;
+            }
+        }
+
+        background-color: #f4bdf4;
+        display: flex;
+    }
+
+    @include m.tablet {
+        .form_map {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+            .formulario {
+                border: none;
+            }
+
+            iframe {
+                width: 90%;
+                margin: 25px;
+            }
+        }
+    }
+
+    @include m.mobile {
+        .form_map{
+        .formulario {
+            border: none;
+        }
+        }
+
+        iframe {
+            width: 90%;
+            margin: 19px;
+        }
+
+    }
+
 }
