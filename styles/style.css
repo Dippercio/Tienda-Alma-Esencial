@@ -223,6 +223,7 @@ body main section {
 }
 body main section article {
   margin: 30px;
+  width: 20vw;
 }
 body main section article .titulo_producto {
   margin: 20px;
@@ -373,7 +374,23 @@ body main section {
   gap: 20px;
 }
 body main section article p {
-  width: 40vw;
+  width: 20vw;
+}
+body main section .carousel {
+  display: block;
+  background-color: #f4bdf4;
+  width: 30vw;
+  height: 100vh;
+}
+body main section .carousel .carousel-inner {
+  height: 100%;
+}
+body main section .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+body main section .carousel .carousel-inner .carousel-item img {
+  height: 100%;
+  object-fit: cover;
 }
 
 main {

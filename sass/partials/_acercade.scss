@@ -19,28 +19,29 @@ body {
             article {
 
                 p {
-                    width: 40vw;
+                    width: 20vw;
                 }
             }
 
-            // .carousel {
-            //     background-color: #f4bdf4;
-            //     width: 40vw;
-            //     height: 100vh;
+            .carousel {
+                display: block;
+                background-color: #f4bdf4;
+                width: 30vw;
+                height: 100vh;
 
-            //     .carousel-inner {
-            //         height: 100%;
+                .carousel-inner {
+                    height: 100%;
 
-            //         .carousel-item {
-            //             height: 100%;
+                    .carousel-item {
+                        height: 100%;
 
-            //             img {
-            //                 height: 100%;
-            //                 object-fit: cover;
-            //             }
-            //         }
-            //     }
-            // }
+                        img {
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
         }
     }
 }
