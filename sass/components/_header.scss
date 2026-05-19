@@ -65,6 +65,11 @@ header {
                     color: black;
                     font-family: Sparkling;
                     font-size: 5vh;
+                    &:active{
+                        color:#923a8e;
+                        background-color: #f695f8;
+                        border-radius: 10px;
+                    }
                 }
             }
 

@@ -71,6 +71,11 @@ header nav ul li a {
   font-family: Sparkling;
   font-size: 5vh;
 }
+header nav ul li a:active {
+  color: #923a8e;
+  background-color: #f695f8;
+  border-radius: 10px;
+}
 header nav ul .link_navegacion_a {
   grid-column: 1/2;
 }
@@ -164,6 +169,17 @@ footer nav .elementos_footer .logos_footer img {
   height: 8vh;
   width: auto;
 }
+footer nav .elementos_footer .logos_footer img:hover {
+  animation: scaleUp 1s ease-in-out infinite alternate;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
 @media (min-width: 480px) and (max-width: 967px) {
   footer nav .elementos_footer {
     margin-left: 27vw;
@@ -234,6 +250,17 @@ body main section article .imagen_producto {
   height: 230px;
   margin: 20px;
 }
+body main section article .imagen_producto:hover {
+  animation: scaleUp 1s ease;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
 body main section article .descripcion_producto {
   font-size: 300;
   margin: 20px;
@@ -254,6 +281,21 @@ body main .link_carrito .carrito {
   height: 10vh;
   width: 10vh;
   border-radius: 100%;
+  border: #923a8e solid 1px;
+}
+body main .link_carrito .carrito:hover {
+  animation: subirYBajar 2s ease;
+}
+@keyframes subirYBajar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 @media (min-width: 480px) and (max-width: 967px) {
   body .seccion_producto .producto_1 {
@@ -290,7 +332,7 @@ body main .link_carrito .carrito {
     justify-items: center;
     align-content: space-evenly;
     margin: 20px;
-    padding-left: 0;
+    padding-left: 5px;
     column-gap: 10%;
   }
   main .seccion_producto .producto_1 {
@@ -377,6 +419,17 @@ main section .galeria_productos .imagen_galeria {
   height: 230px;
   margin: 3%;
   box-sizing: border-box;
+}
+main section .galeria_productos .imagen_galeria:hover {
+  animation: scaleUp 1s ease;
+}
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
 }
 
 body {

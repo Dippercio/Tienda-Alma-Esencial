@@ -42,6 +42,19 @@ main {
                 height: 230px;
                 margin: 3%;
                 box-sizing: border-box;
+                &:hover {
+                        animation: scaleUp 1s ease;
+
+                        @keyframes scaleUp {
+                            0% {
+                                transform: scale(1);
+                            }
+
+                            100% {
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
             }
         }
     }
