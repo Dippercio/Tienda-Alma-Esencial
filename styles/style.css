@@ -255,12 +255,30 @@ body main .link_carrito .carrito {
   width: 10vh;
   border-radius: 100%;
 }
+@media (min-width: 480px) and (max-width: 967px) {
+  body .seccion_producto .producto_1 {
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  body .seccion_producto .producto_2 {
+    margin: 10px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  body .seccion_producto .producto_3 {
+    margin: 10px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
 @media (min-width: 300px) and (max-width: 479px) {
   body main .seccion_producto {
     width: 90vw;
+    margin-left: 5%;
   }
   body main .seccion_producto article {
-    width: 85vw;
+    width: 80%;
   }
 }
 
@@ -269,19 +287,24 @@ body main .link_carrito .carrito {
     display: grid;
     grid-template-columns: repeat(2) 1fr;
     grid-template-rows: repeat(2) 1fr;
-    justify-items: space-between;
-    align-content: space-between;
-    margin-left: 4vw;
+    justify-items: center;
+    align-content: space-evenly;
+    margin: 20px;
+    padding-left: 0;
+    column-gap: 10%;
   }
   main .seccion_producto .producto_1 {
+    margin: 10px;
     grid-column: 1/2;
     grid-row: 1/2;
   }
   main .seccion_producto .producto_2 {
+    margin: 10px;
     grid-column: 2/3;
     grid-row: 1/2;
   }
   main .seccion_producto .producto_3 {
+    margin: 10px;
     grid-column: 1/2;
     grid-row: 2/3;
   }
@@ -391,6 +414,35 @@ body main section .carousel .carousel-inner .carousel-item {
 body main section .carousel .carousel-inner .carousel-item img {
   height: 100%;
   object-fit: cover;
+}
+@media (min-width: 300px) and (max-width: 479px) {
+  body section {
+    display: block;
+    border: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  body section article p {
+    width: 60vw;
+    padding: 0;
+    margin: 5px;
+  }
+  body section .carousel {
+    display: block;
+    background-color: #f4bdf4;
+    width: 90%;
+    height: 100vh;
+  }
+  body section .carousel .carousel-inner {
+    height: 100%;
+  }
+  body section .carousel .carousel-inner .carousel-item {
+    height: 100%;
+  }
+  body section .carousel .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 main h2 {

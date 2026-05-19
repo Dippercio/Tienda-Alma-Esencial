@@ -1,9 +1,6 @@
 @use "../utilities/variables" as v;
 @use "../utilities/mixins" as m;
 
-// *{
-//     border: black 5px solid;
-// }
 
 body {
     background-color: #f796f2;
@@ -85,12 +82,35 @@ body {
         }
     }
 
+    @include m.tablet{
+        .seccion_producto{
+        .producto_1 {
+                margin: 10px;
+                grid-column: 1/2;
+                grid-row: 1/2;
+            }
+
+            .producto_2 {
+                margin: 10px;
+                grid-column: 2/3;
+                grid-row: 1/2;
+            }
+
+            .producto_3 {
+                margin: 10px;
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+        }
+    }
+
     @include m.mobile {
         main{
             .seccion_producto{
                 width: 90vw;
+                margin-left: 5%;
                 article{
-                    width: 85vw;
+                    width: 80%;
                 }
             }
         }

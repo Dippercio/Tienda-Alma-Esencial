@@ -1,3 +1,7 @@
+@use "../utilities/variables" as v;
+@use "../utilities/mixins" as m;
+
+
 body {
     background-color: #f4bdf4;
     $body-bg: #f4bdf4;
@@ -27,6 +31,42 @@ body {
                 display: block;
                 background-color: #f4bdf4;
                 width: 30vw;
+                height: 100vh;
+
+                .carousel-inner {
+                    height: 100%;
+
+                    .carousel-item {
+                        height: 100%;
+
+                        img {
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @include m.mobile {
+        section {
+            display: block;
+            border: none;
+            margin: 5px;
+            padding: 5px;
+            article {
+                p {
+                    width: 60vw;
+                    padding: 0;
+                    margin: 5px;
+                }
+            }
+
+            .carousel {
+                display: block;
+                background-color: #f4bdf4;
+                width: 90%;
                 height: 100vh;
 
                 .carousel-inner {
