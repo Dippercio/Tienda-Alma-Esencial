@@ -27,11 +27,11 @@ header a #logo_principal {
   height: 180px;
   border-radius: 10%;
   margin: 10px;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
 }
 header h1 {
-  background-color: #fcbffd;
+  background-color: #efddff;
   padding-top: 54px;
   margin: 20px;
   width: 300px;
@@ -40,14 +40,14 @@ header h1 {
   border-radius: 17px;
   font-family: JustColes;
   box-sizing: border-box;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
 }
 header nav {
-  background-color: #fcbffd;
+  background-color: #efddff;
   padding: 10px;
   margin: 20px;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
 }
 header nav ul {
@@ -72,8 +72,8 @@ header nav ul li a {
   font-size: 5vh;
 }
 header nav ul li a:active {
-  color: #923a8e;
-  background-color: #f695f8;
+  background-color: #d6bfeb;
+  color: #c07afd;
   border-radius: 10px;
 }
 header nav ul .link_navegacion_a {
@@ -212,15 +212,14 @@ footer nav .elementos_footer .logos_footer img:hover {
 }
 
 body, body main {
-  background-color: #f796f2;
+  background-color: #efddff;
 }
 body main h2 {
   font-family: Sparkling;
   font-size: 32px;
   margin: 15px;
-  background-color: #f4bdf4;
-  border-radius: 15px;
-  border: 5px #923a8e solid;
+  background-color: #efddff;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
   text-align: center;
   height: 10vh;
@@ -228,13 +227,13 @@ body main h2 {
   margin-left: 21vw;
 }
 body main section {
-  background-color: #f4bdf4;
+  background-color: #efddff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   border-radius: 15px;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
 }
 body main section article {
@@ -281,7 +280,7 @@ body main .link_carrito .carrito {
   height: 10vh;
   width: 10vh;
   border-radius: 100%;
-  border: #923a8e solid 1px;
+  border: #d4aafa solid 1px;
 }
 body main .link_carrito .carrito:hover {
   animation: subirYBajar 2s ease;
@@ -385,7 +384,7 @@ main h2 {
   font-family: Sparkling;
   font-size: 32px;
   margin: 15px;
-  background-color: #f4bdf4;
+  background-color: #efddff;
   border-radius: 15px;
   border: 5px #923a8e solid;
   border-radius: 17px;
@@ -395,7 +394,7 @@ main h2 {
   margin-left: 21vw;
 }
 main section {
-  background-color: #f4bdf4;
+  background-color: #efddff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -406,7 +405,7 @@ main section {
   margin: 0 10vw 0 10vw;
 }
 main section .galeria_productos {
-  background-color: #f4bdf4;
+  background-color: #efddff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -433,14 +432,14 @@ main section .galeria_productos .imagen_galeria:hover {
 }
 
 body {
-  background-color: #f4bdf4;
+  background-color: #efddff;
 }
 body main {
-  background-color: #f4bdf4;
+  background-color: #efddff;
 }
 body main section {
-  background-color: #f4bdf4;
-  border: 5px #923a8e solid;
+  background-color: #efddff;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
   margin: 0 10vw;
   padding: 5vh;
@@ -454,7 +453,7 @@ body main section article p {
 }
 body main section .carousel {
   display: block;
-  background-color: #f4bdf4;
+  background-color: #efddff;
   width: 30vw;
   height: 100vh;
 }
@@ -502,9 +501,9 @@ main h2 {
   font-family: Sparkling;
   font-size: 32px;
   margin: 15px;
-  background-color: #f4bdf4;
+  background-color: #efddff;
   border-radius: 15px;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
   text-align: center;
   height: 10vh;
@@ -515,7 +514,7 @@ main .form_map .formulario {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  border: 5px #923a8e solid;
+  border: #d4aafa solid 5px;
   border-radius: 17px;
   padding: 10px;
 }
@@ -530,11 +529,7 @@ main .form_map .formulario .mensaje {
 }
 main .form_map .formulario button {
   margin: 10px;
-  background-color: #cc6cc7;
-}
-main .form_map {
-  background-color: #f4bdf4;
-  display: flex;
+  background-color: #c58bf8;
 }
 @media (min-width: 480px) and (max-width: 967px) {
   main .form_map {

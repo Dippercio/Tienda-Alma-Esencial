@@ -17,13 +17,13 @@ header {
             height: 180px;
             border-radius: 10%;
             margin: 10px;
-            border: 5px #923a8e solid;
+            @include m.borde;
             border-radius: 17px;
         }
     }
 
     h1 {
-        background-color: #fcbffd;
+        background-color: v.$color1;
         padding-top: 54px;
         margin: 20px;
         width: 300px;
@@ -32,15 +32,15 @@ header {
         border-radius: 17px;
         font-family: JustColes;
         box-sizing: border-box;
-        border: 5px #923a8e solid;
+        @include m.borde;
         border-radius: 17px;
     }
 
     nav {
-        background-color: #fcbffd;
+        background-color: v.$color1;
         padding: 10px;
         margin: 20px;
-        border: 5px #923a8e solid;
+        @include m.borde;
         border-radius: 17px;
 
 
@@ -66,8 +66,8 @@ header {
                     font-family: Sparkling;
                     font-size: 5vh;
                     &:active{
-                        color:#923a8e;
-                        background-color: #f695f8;
+                        background-color: #d6bfeb;
+                        color: #c07afd;
                         border-radius: 10px;
                     }
                 }

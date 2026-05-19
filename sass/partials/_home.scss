@@ -3,7 +3,7 @@
 
 
 body {
-    background-color: #f796f2;
+    background-color: v.$color1;
 
     main {
         @extend body;
@@ -12,9 +12,8 @@ body {
             font-family: Sparkling;
             font-size: 32px;
             margin: 15px;
-            background-color: #f4bdf4;
-            border-radius: 15px;
-            border: 5px #923a8e solid;
+            background-color: v.$color1;
+            @include m.borde;
             border-radius: 17px;
             text-align: center;
             height: 10vh;
@@ -23,13 +22,13 @@ body {
         }
 
         section {
-            background-color: #f4bdf4;
+            background-color: v.$color1;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-evenly;
             border-radius: 15px;
-            border: 5px #923a8e solid;
+            @include m.borde;
             border-radius: 17px;
 
             article {
@@ -91,7 +90,7 @@ body {
                 height: 10vh;
                 width: 10vh;
                 border-radius: 100%;
-                border: #923a8e solid 1px;
+                border: #d4aafa solid 1px;
 
                 &:hover {
                     animation: subirYBajar 2s ease;

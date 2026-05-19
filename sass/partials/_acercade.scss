@@ -3,15 +3,14 @@
 
 
 body {
-    background-color: #f4bdf4;
-    $body-bg: #f4bdf4;
+    background-color: v.$color1;
 
     main {
-        background-color: #f4bdf4;
+        background-color: v.$color1;
 
         section {
-            background-color: #f4bdf4;
-            border: 5px #923a8e solid;
+            background-color: v.$color1;
+            @include m.borde;
             border-radius: 17px;
             margin: 0 10vw;
             padding: 5vh;
@@ -29,7 +28,7 @@ body {
 
             .carousel {
                 display: block;
-                background-color: #f4bdf4;
+                background-color: v.$color1;
                 width: 30vw;
                 height: 100vh;
 
