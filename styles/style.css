@@ -243,6 +243,7 @@ body main section article {
 body main section article .titulo_producto {
   margin: 20px;
   font-size: 28px;
+  font-family: Sparkling;
 }
 body main section article .imagen_producto {
   width: 230px;
@@ -261,8 +262,9 @@ body main section article .imagen_producto:hover {
   }
 }
 body main section article .descripcion_producto {
-  font-size: 300;
+  font-size: 500;
   margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
 }
 body main section article .precio_producto {
   margin: 20px;
@@ -270,6 +272,8 @@ body main section article .precio_producto {
 body main section article div button {
   margin: 12px;
   margin-left: 17px;
+  background-color: #d4aafa;
+  padding: 5px;
 }
 body main .link_carrito {
   position: fixed;
@@ -323,6 +327,12 @@ body main .link_carrito .carrito:hover {
   }
 }
 
+main section .producto_3 {
+  margin: 10px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin-top: 29px;
+}
 @media (min-width: 480px) and (max-width: 967px) {
   main .seccion_producto {
     display: grid;
@@ -412,6 +422,7 @@ main section .galeria_productos {
   justify-content: space-between;
   border-radius: 15px;
   box-sizing: border-box;
+  margin-left: 70px;
 }
 main section .galeria_productos .imagen_galeria {
   width: 230px;
@@ -450,6 +461,7 @@ body main section {
 }
 body main section article p {
   width: 20vw;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 body main section .carousel {
   display: block;
@@ -468,31 +480,33 @@ body main section .carousel .carousel-inner .carousel-item img {
   object-fit: cover;
 }
 @media (min-width: 300px) and (max-width: 479px) {
-  body section {
+  body main section {
     display: block;
     border: none;
     margin: 5px;
     padding: 5px;
+    margin-left: 25px;
   }
-  body section article p {
+  body main section article p {
     width: 60vw;
     padding: 0;
     margin: 5px;
   }
-  body section .carousel {
+  body main section .carousel {
     display: block;
     background-color: #f4bdf4;
-    width: 90%;
+    width: 300px;
     height: 100vh;
   }
-  body section .carousel .carousel-inner {
+  body main section .carousel .carousel-inner {
     height: 100%;
   }
-  body section .carousel .carousel-inner .carousel-item {
+  body main section .carousel .carousel-inner .carousel-item {
     height: 100%;
   }
-  body section .carousel .carousel-inner .carousel-item img {
+  body main section .carousel .carousel-inner .carousel-item img {
     height: 100%;
+    width: 300px;
     object-fit: cover;
   }
 }

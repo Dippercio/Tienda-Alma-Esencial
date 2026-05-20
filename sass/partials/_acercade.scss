@@ -23,6 +23,7 @@ body {
 
                 p {
                     width: 20vw;
+                    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
                 }
             }
 
@@ -49,34 +50,40 @@ body {
     }
 
     @include m.mobile {
-        section {
-            display: block;
-            border: none;
-            margin: 5px;
-            padding: 5px;
-            article {
-                p {
-                    width: 60vw;
-                    padding: 0;
-                    margin: 5px;
-                }
-            }
-
-            .carousel {
+        main {
+            section {
                 display: block;
-                background-color: #f4bdf4;
-                width: 90%;
-                height: 100vh;
+                border: none;
+                margin: 5px;
+                padding: 5px;
+                margin-left: 25px;
 
-                .carousel-inner {
-                    height: 100%;
+                article {
+                    p {
+                        width: 60vw;
+                        padding: 0;
+                        margin: 5px;
+                    }
+                }
 
-                    .carousel-item {
+                .carousel {
+                    display: block;
+                    background-color: #f4bdf4;
+                    width: 300px;
+                    height: 100vh;
+
+
+                    .carousel-inner {
                         height: 100%;
 
-                        img {
+                        .carousel-item {
                             height: 100%;
-                            object-fit: cover;
+
+                            img {
+                                height: 100%;
+                                width: 300px;
+                                object-fit: cover;
+                            }
                         }
                     }
                 }
